@@ -87,6 +87,10 @@ antigen theme pure
 # Apply antigen configuration
 antigen apply
 
+# Set env variables and update PATH
+JAVA_HOME=/opt/jdk1.8.0_121
+PATH=$JAVA_HOME/bin:$PATH
+
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
